@@ -32,6 +32,8 @@ cd zodo
 zig build
 ```
 
+The build artifact is at `./zig-out/bin` directory. To build in release mode, run `zig build -Drelease-small=true`.
+
 ## FAQ
 
 ### Where is the database file?
